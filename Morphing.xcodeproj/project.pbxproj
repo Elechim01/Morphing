@@ -11,6 +11,8 @@
 		C4412EDB28DF32E8009058D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4412EDA28DF32E8009058D7 /* ContentView.swift */; };
 		C4412EDD28DF32E9009058D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4412EDC28DF32E9009058D7 /* Assets.xcassets */; };
 		C4412EE028DF32E9009058D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4412EDF28DF32E9009058D7 /* Preview Assets.xcassets */; };
+		C4412EE828DF336D009058D7 /* MorphyingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4412EE728DF336D009058D7 /* MorphyingView.swift */; };
+		C4412EEB28DF34A0009058D7 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4412EEA28DF34A0009058D7 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C4412EDA28DF32E8009058D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4412EDC28DF32E9009058D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4412EDF28DF32E9009058D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4412EE728DF336D009058D7 /* MorphyingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphyingView.swift; sourceTree = "<group>"; };
+		C4412EEA28DF34A0009058D7 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		C4412ED728DF32E8009058D7 /* Morphing */ = {
 			isa = PBXGroup;
 			children = (
+				C4412EE928DF348E009058D7 /* Model */,
+				C4412EE628DF3357009058D7 /* View */,
 				C4412ED828DF32E8009058D7 /* MorphingApp.swift */,
 				C4412EDA28DF32E8009058D7 /* ContentView.swift */,
 				C4412EDC28DF32E9009058D7 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				C4412EDF28DF32E9009058D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4412EE628DF3357009058D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4412EE728DF336D009058D7 /* MorphyingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4412EE928DF348E009058D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4412EEA28DF34A0009058D7 /* CustomShape.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4412EEB28DF34A0009058D7 /* CustomShape.swift in Sources */,
+				C4412EE828DF336D009058D7 /* MorphyingView.swift in Sources */,
 				C4412EDB28DF32E8009058D7 /* ContentView.swift in Sources */,
 				C4412ED928DF32E8009058D7 /* MorphingApp.swift in Sources */,
 			);
